@@ -1,0 +1,30 @@
+/* Navigation */
+#main-div .social {
+  display: none;
+}
+
+.articles-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+/* About */
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+aside {
+  padding: 1.5rem 0;
+}
+/* Single Articles */
+.article-content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.article-content img {
+  height: 200px;
+}
